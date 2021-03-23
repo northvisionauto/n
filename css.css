@@ -5,6 +5,7 @@ body{
     margin:0;
     padding: 0;
     height: auto ;
+    background-color
 }
 /*SCROLLBAR*/
 ::-webkit-scrollbar {
@@ -133,6 +134,7 @@ a.ls{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .align-box-text{
     width: 50%;
@@ -151,6 +153,7 @@ a.ls{
     background-image: url(img/pexels-max-home-2.jpg);
     background-size: cover;
     background-position: center;
+    margin-bottom: 10px;
 }
 .sub-mdl-2-1{
     width: 60%;
