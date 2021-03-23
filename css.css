@@ -10,7 +10,10 @@ body{
 /*SCROLLBAR*/
 ::-webkit-scrollbar {
     width: 10px; 
-    background: rgb(50, 50, 50);
+    background: rgb(20, 20, 20);
+}
+::-webkit-scrollbar-track {
+  background: rgb(50, 50, 50);
 }
 ::-webkit-scrollbar-thumb {
     background: rgb(0, 0, 0); 
