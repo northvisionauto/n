@@ -245,6 +245,11 @@ i:hover{
     color: white;
     font-size: 10pt;
 }
+.ctt-ft-ul-1 a.link-c:hover{
+    border-bottom: 1.5px solid;
+    background-image: linear-gradient(45deg, rgb(200, 0, 0), rgb(0, 0, 150));
+    border-image-slice: 1;
+}
 /*MODULO-COPYRIGHT*/
 #module-copyright{
     width:100%;
