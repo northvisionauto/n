@@ -244,6 +244,7 @@ i:hover{
     text-decoration:none;
     color: white;
     font-size: 10pt;
+    padding-bottom: 5px;
 }
 .ctt-ft-ul-1 a.link-c:hover{
     border-bottom: 1.5px solid;
