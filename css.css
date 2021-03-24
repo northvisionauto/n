@@ -265,4 +265,12 @@ i:hover{
     flex-direction: row;
     color: rgb(100,100,100);
 }
+#div-map{
+    width: 100%;
+    height: 300px;
+}
+#div-map iframe{
+    width: 99.7%;
+    height: 100%;
+}
 /*ESPAÇO DEDICADO PARA RESPONSIVIDADE, DIGITAR CÓDIGOS ACIMA.*/
