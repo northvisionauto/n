@@ -8,20 +8,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <script>
-            window.onscroll = function() {myFunction()};
-            
-            var header = document.getElementById("topo");
-            var sticky = header.offsetTop;
-            
-            function myFunction() {
-              if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-              } else {
-                header.classList.remove("sticky");
-              }
-            }
-        </script>
         <div id="total">
             <div id="topo">
                 <div class="logo-site">
@@ -103,6 +89,19 @@
             </div>
             
         </div>
-        
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("topo");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+        </script>
     </body>
 </html>
