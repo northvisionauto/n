@@ -8,20 +8,7 @@
         <link rel="stylesheet" type="text/css" href="css.css">
         <link rel="shortcut icon" href="img/northvision_logo_draw.svg" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-        <script>
-            window.onscroll = function() {myFunction()};
-            
-            var topo = document.getElementById("topo");
-            var topoaAlt = header.offsetTop;
-            
-            function myFunction() {
-              if (window.pageYOffset > topoAlt) {
-                topo.classList.add("topoaAlt");
-              } else {
-                topo.classList.remove("topoAlt");
-              }
-            }
-        </script>
+        
     </head>
     <body>
         <div id="total">
@@ -97,6 +84,19 @@
             </div>
             
         </div>
-        
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var topo = document.getElementById("topo");
+            var topoaAlt = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > topoAlt) {
+                topo.classList.add("topoaAlt");
+              } else {
+                topo.classList.remove("topoAlt");
+              }
+            }
+        </script>
     </body>
 </html>
