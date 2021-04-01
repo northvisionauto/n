@@ -85,18 +85,18 @@
             
         </div>
         <script>
-            window.onscroll = function() {myFunction()};
-            
-            var topo = document.getElementById("topo");
-            var topoaAlt = header.offsetTop;
-            
-            function myFunction() {
-              if (window.pageYOffset > topoAlt) {
-                topo.classList.add("topoaAlt");
-              } else {
-                topo.classList.remove("topoAlt");
-              }
+          window.onscroll = function() {myFunction()};
+          
+          var header = document.getElementById("topo");
+          var sticky = header.offsetTop;
+          
+          function myFunction() {
+            if (window.pageYOffset > sticky) {
+              header.classList.add("sticky");
+            } else {
+              header.classList.remove("sticky");
             }
-        </script>
+          }
+      </script>
     </body>
 </html>
