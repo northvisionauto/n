@@ -266,9 +266,7 @@ i.arrow-up:hover{
     padding-bottom: 5px;
 }
 .ctt-ft-ul-1 a.link-c:hover{
-    border-bottom: 1.5px solid;
-    border-image-source: linear-gradient(45deg, rgb(200, 0, 0), rgb(0, 0, 150));
-    border-image-slice: 1;
+    border-bottom: 1.5px solid #ffffff;
 }
 /*MODULO-COPYRIGHT*/
 #module-copyright{
