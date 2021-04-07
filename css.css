@@ -7,6 +7,24 @@ body{
     height: auto ;
     background-color: rgb(30,30,30);
 }
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#ffffff;
+    color:#00e900;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,0.1);
+    z-index:100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
 /*SCROLLBAR*/
 ::-webkit-scrollbar {
     width: 10px; 
@@ -203,19 +221,19 @@ a.ls{
     justify-content: center;
     align-items: center;
 }
-i{
+i.arrow-up{
     border: solid white;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 13px;
     margin-bottom: -25px;
 }
-i:hover{
+i.arrow-up:hover{
     border: solid red;
     border-width: 0 5px 5px 0;
 }
 .mdl-f-1 p{margin: 0;}
-.up{
+.arrow-up{
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
 }
