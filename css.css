@@ -5,7 +5,7 @@ body{
     margin:0;
     padding: 0;
     height: auto ;
-    background-color: rgb(30,30,30);
+    background-color: rgb(255, 255, 255);
 }
 .float{
     position:fixed;
@@ -13,8 +13,8 @@ body{
     height:60px;
     bottom:40px;
     right:40px;
-    background-color:#ffffff;
-    color:#00e900;
+    background-color:#00c400;
+    color:#ffffff;
     border-radius:50px;
     text-align:center;
     font-size:30px;
@@ -25,10 +25,14 @@ body{
     align-items: center;
     text-decoration: none;
 }
+.float:hover{
+    background-color:#ffffff;
+    color:#00c400;
+}
 /*SCROLLBAR*/
 ::-webkit-scrollbar {
     width: 10px; 
-    background: rgb(30, 30, 30);
+    background: rgb(200, 200, 200);
 }
 ::-webkit-scrollbar-thumb {
     background: rgb(0, 0, 0); 
@@ -261,7 +265,7 @@ i.arrow-up:hover{
 }
 .ctt-ft-ul-1 a.link-c{
     text-decoration:none;
-    color: white;
+    color: white; 
     font-size: 10pt;
     padding-bottom: 5px;
 }
@@ -290,5 +294,19 @@ i.arrow-up:hover{
 #div-map iframe{
     width: 100%;
     height: 100%;
+}
+#module-form-info{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#div-align-fi{
+    width: 97%;
+    height: 85%;
+    background-color: #000;
+    border-radius: 10px;
 }
 /*ESPAÇO DEDICADO PARA RESPONSIVIDADE, DIGITAR CÓDIGOS ACIMA.*/
