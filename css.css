@@ -568,13 +568,13 @@ i.arrow-up:hover{
         padding: 10px 50px 10px 50px;
         text-align: center;
         font-weight: 300;
-        font-size: 3em;
+        font-size: 2em;
     }
     .sub-mdl-2-2 p{
         padding: 10px 50px 10px 50px;
         text-align: justify;
         text-indent: 40px;
-        font-size: 1em;
+        font-size: 0.5em;
     }
     /*MODULO-3-PÁGINA-INICIAL*/
     #module-home-3{
