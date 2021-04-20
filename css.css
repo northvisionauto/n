@@ -652,8 +652,6 @@ i.arrow-up:hover{
         height: 20px;
         background-color: rgb(15, 15, 15);
         font-family:'montserrat', sans-serif;
-        font-size: 0.4em;
-        font-weight: 200;
         display: flex;
         justify-content: center;
         align-items: center;
