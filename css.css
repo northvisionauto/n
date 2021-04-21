@@ -519,7 +519,6 @@ i.arrow-up:hover{
         width: 100%;
         height: 100vh;
         background-image: url(img/pexels-max-home.jpg);
-        background-attachment: fixed;
         background-size: cover;
         display: flex;
         align-items: center;
