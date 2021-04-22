@@ -543,6 +543,7 @@ i.arrow-up:hover{
         width: 100%;
         height: 70vh;
         background-image: url(img/pexels-max-home-2.jpg);
+        background-attachment: unset;
         background-size: cover;
         background-position: center;
         margin-bottom: 10px;
