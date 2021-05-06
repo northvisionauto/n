@@ -1,105 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sobre a Empresa</title>
-        <link rel="stylesheet" type="text/css" href="css.css">
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css.css'>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="img/northvision_logo_draw-light.svg" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-        
+        <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <title>Sobre nossa empresa.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     </head>
     <body>
-        <div id="total">
-            <a href="https://api.whatsapp.com/send?phone=552132194040&text=Estava%20no%20site%20e%20gostaria%20de%20maiores%20informa%C3%A7%C3%B5es.&utm_campaign=FLUXOS%20PADR%C3%83O%20DE%20GRADUA%C3%87%C3%83O&utm_source=SITE&utm_medium=DIRECIONA%20PARA%20O%20WHATSAPP&utm_term=CANDIDATO%20GRADUA%C3%87%C3%83O&utm_content=CANDIDATO%20%20%20GRADUA%C3%87%C3%83O%20%20%20WHATSAPP%20%20%20SITE" class="float" target="_blank">
-                <i class="fa fa-whatsapp my-float"></i>
-            </a>
-            
-            <div id="topo">
-                <div class="logo-site">
-                    <a class="limg" href="index.html"><img src="img/northvision_logo_draw.svg" alt="Northvision logo"></a>
-                    <a class="ltxt" href="index.html">NORTHVISION</a>
+        <a href="#mdl-ctt-main" class="link-to-content-up"><i id="arrow-up"></i></a>
+        <div id="allcontent">
+        
+            <div id="mdl-ctt-up">
+                <div class="mdl-ctt-up-bx1">
+                    <a href="index.html">
+                        <div class="flex-navbar-logo">
+                                <div class="l-item"><img src="img/northvision_logo_draw.svg" alt="Logo Northvision"></div>
+                                <div class="l-item"><h1>NORTHVISION</h1></div>
+                        </div>
+                    </a>
+                    <nav class="flex-navbar-link">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="empresa.html">Empresa</a></li>
+                            <li><a href="news.html">Newsletter</a></li>
+                            <li><a href="auto_residencial.html">Automação Residencial</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                    <button type="button" class="flex-navbar-link-mobile-button" onclick="myFlexmenu('flex-navbar-link-mobile')">
+                        <span class="flex-navbar-link-mobile-tag"></span>
+                        <span class="flex-navbar-link-mobile-tag"></span>
+                        <span class="flex-navbar-link-mobile-tag"></span>
+                    </button>
                 </div>
-                <nav class="menu">
-                    <ul class="mnav-p">
-                        <li class="item-p"><a class="lp" href="index.html">HOME</a></li>
-                        <li class="item-p"><a class="lp" href="empresa.html">EMPRESA</a></li>
-                        <li class="item-p"><a class="lp">SOLUÇÕES</a>
-                            <ul class="mnav-s">
-                                <li class="item-s"><a class="ls" href="auto_residencial.html">AUTOMAÇÃO RESIDENCIAL</a></li>
-                                <li class="item-s"><a class="ls" href="auto_empresarial.html">AUTOMAÇÃO EMPRESARIAL</a></li>
-                            </ul>
-                        </li>
-                        <li class="item-p"><a class="lp" href="blog.html">NOTÍCIAS</a></li>
-                        <li class="item-p"><a class="lp" href="contato.html">CONTATO</a></li>
+                <div id="flex-navbar-link-mobile" class="flex-navbar-link-mobile">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="empresa.html">Empresa</a></li>
+                        <li><a href="news.html">Newsletter</a></li>
+                        <li><a href="auto_residencial.html">Automação Residencial</a></li>
+                        <li><a href="contato.html">Contato</a></li>
                     </ul>
-                </nav>
+                </div>
             </div>
             
+            <div id="mdl-ctt-main">
 
-            
-            <div id="module-footer">
-                
-                <div class="mdl-f-1">
-                    <a href="#total"><p><i class="arrow-up"></i></p></a>
-                  </div>
-  
-                  <div class="mdl-f-2">
-                      
-                    <div class="ctt-ft">
-                      <ul class="ctt-ft-ul-1">
-                        <li><a>TELEFONES:<br>+55(21)99594-5578<br>+55(21)2782-7998</a></li><br>
-                        <li><a>ENDEREÇO:<br> Rua Prof. José de Souza Herdy, 1160 - 25 de Agosto, Duque de Caxias - RJ, 25071-202</a></li><br>
-                        <li><a>EMAIL:<br>northvisionautomation@gmail.com</a></li><br>
-                        <li><a href="contato.html" class="link-b">Envie-nos uma mensagem >></a></li>
-                    </ul>
-                    </div>
-                      
-                    <div class="ctt-ft">
-                      <ul class="ctt-ft-ul-1">
-                        <li><a href="index.html" class="link-c">HOME</a></li><br>
-                        <li><a href="empresa.html" class="link-c">EMPRESA</a></li><br>
-                        <li><a></a>SOLUÇÕES</li><br/>
-                        <li><a href="auto_residencial.html" class="link-c">- AUTOMAÇÃO RESIDENCIAL</a></li><br>
-                        <li><a href="auto_empresarial.html" class="link-c">- AUTOMAÇÃO EMPRESARIAL</a></li><br>
-                        <li><a href="blog.html" class="link-c">NOTÍCIAS</a></li><br>
-                        <li><a href="contato.html" class="link-c">CONTATO</a></li><br>
-                    </ul>
-                    </div>
-                      
-                    <div class="ctt-ft">
-                      <ul class="ctt-ft-ul-1">
-                        <li><a href="index.html"><img src="img/northvision_logo_draw-light.svg" class="img-rd"></a></li><br>
-                        <li><a href="https://www.facebook.com/northvisionauto" class="link-c" target="_blank"><img src="img/face-light.svg" width="15px" height="15px" style="padding-right:5px;">facebook.com/northvisionauto</a></li><br>
-                        <li><a href="https://www.instagram.com/northvisionauto" class="link-c" target="_blank"><img src="img/insta-light.svg" width="15px" height="15px" style="padding-right:5px;">instagram.com/northvisionauto</a></li><br>
-                        <li><a href="https://www.twitter.com/northvisionauto" class="link-c" target="_blank"><img src="img/tt-light.svg" width="15px" height="15px" style="padding-right:5px;">twitter.com/northvisionauto</a></li><br>
-                    </ul>
-                    </div>
-                      
-                  </div>
-                
             </div>
-            
-            <div id="module-copyright">
-                <h2>&copy;2021 Northvision Automação, todos os direitos reservados.</h2>
+
+            <div id="mdl-ctt-footer">
+                <div class="mdl-ctt-footer-info">
+                    <div class="mdl-ctt-footer-info-bx1">
+                        <h4>Contato</h4>
+                        <div class="mdl-ctt-footer-info-bx1-textwidget">
+                            <span class="textwidget-adress">
+                                <p>Rio de Janeiro
+                                <br>
+                                Rua Prof. José de Souza Herdy, 1160
+                                <br>
+                                25 de Agosto, Duque de Caxias - RJ
+                                <br>
+                                25071-202
+                                <br></p>
+                            </span>
+                            <br>
+                            Telefone:
+                            <span style="color:#fff;"><a href="tel:(21)3379-5549">(21) 3379-5549</a></span><br>
+                            Whatsapp:
+                            <span style="color:#fff;"><a href="https://api.whatsapp.com/send?phone=552132194040&amp;text=Estava%20no%20site%20e%20gostaria%20de%20maiores%20informa%C3%A7%C3%B5es.&amp;utm_campaign=FLUXOS%20PADR%C3%83O%20DE%20GRADUA%C3%87%C3%83O&amp;utm_source=SITE&amp;utm_medium=DIRECIONA%20PARA%20O%20WHATSAPP&amp;utm_term=CANDIDATO%20GRADUA%C3%87%C3%83O&amp;utm_content=CANDIDATO%20%20%20GRADUA%C3%87%C3%83O%20%20%20WHATSAPP%20%20%20SITE" target="_blank">(21) 97299-4242</a></span>
+                        </div>
+                    </div>
+                    <div class="mdl-ctt-footer-info-bx2">
+                        <a href="index.html">Home</a>
+                        <a href="empresa.html">Empresa</a>
+                        <a href="news.html">Newsletter</a>
+                        <a href="auto_residencial.html">Automação Residencial</a>
+                        <a href="contato.html">Contato</a>
+                    </div>
+                </div>
+                <div class="mdl-ctt-footer-copy">
+                    <ul>
+                        <li><img src="img/northvision_logo_draw-light.svg" alt="Logo Northvision"></li>
+                        <li><h6 class="mdl-ctt-footer-copy-item">&copy;Copyright 2021 Northvision Automação, todos os direitos reservados.</h6></li>
+                        <li><a href="https://facebook.com/northvisionauto" target="_blank"><img src="img/face-light.svg" alt="Logo Facebook"></a></li>
+                        <li><a href="https://instagram.com/northvisionauto" target="_blank"><img src="img/insta-light.svg" alt="Logo Instagram"></a></li>
+                        <li><a href="https://twitter.com/northvisionauto" target="_blank"><img src="img/tt-light.svg" alt="Logo Twitter"></a></li>
+                    </ul>
+                </div>
             </div>
-            
         </div>
-        <script>
-            window.onscroll = function() {myFunction()};
-            
-            var header = document.getElementById("topo");
-            var sticky = header.offsetTop;
-            
-            function myFunction() {
-              if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-              } else {
-                header.classList.remove("sticky");
-              }
+        <script type="text/javascript">
+            function myFlexmenu(el){
+                var display = document.getElementById(el).style.display;
+                if(display == "none"){
+                    document.getElementById(el).style.display = 'block';
+                }else{
+                    document.getElementById(el).style.display = 'none';
+                }
             }
-        </script>
+            </script>
     </body>
 </html>
