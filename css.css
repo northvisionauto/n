@@ -175,7 +175,7 @@ button.flex-navbar-link-mobile-button{
     margin: 5vh auto;
 }
 .mdl-ctt-main-home-2-align-sub{
-    width: 100%;
+    width: 95%;
     height: 250px;
     display: flex;
     justify-content: space-around;
@@ -195,7 +195,7 @@ button.flex-navbar-link-mobile-button{
     border-radius: 10px;
     transition: height .2s;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    margin: 5vh 10vh 5vh 10vh;
+    margin: 0vh 10vh 0vh 10vh;
 }
 
 #m-c-m-h-2-a-s-1{
@@ -397,7 +397,7 @@ button.flex-navbar-link-mobile-button{
         margin: 5vh auto;
     }
     .mdl-ctt-main-home-2-align-sub{
-        width: 100%;
+        width: 95%;
         height: 250px;
         margin: 2vh 0vh 2vh 0vh;
         display: flex;
@@ -412,8 +412,8 @@ button.flex-navbar-link-mobile-button{
         margin: 2vh 0vh 2vh 0vh;
     }
     .m-c-m-h-2-a-s{
-        width: 350px;
-        height: 35vh;
+        width: 300px;
+        height: 45vh;
         border-radius: 10px;
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
         margin: 5vh 5vh 5vh 5vh;
