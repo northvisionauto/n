@@ -176,10 +176,12 @@ button.flex-navbar-link-mobile-button{
 }
 .mdl-ctt-main-home-2-align-sub{
     width: 100%;
-    height: auto;
+    height: 250px;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     flex-wrap: wrap;
+    overflow: scroll;
 }
 .mdl-ctt-main-home-2-align h2{
     text-align: center;
@@ -188,12 +190,12 @@ button.flex-navbar-link-mobile-button{
     font-size: 25pt;
 }
 .m-c-m-h-2-a-s{
-    width: 250px;
+    width: 90vh;
     height: 25vh;
     border-radius: 10px;
     transition: height .2s;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    margin: 5vh 0vh 5vh 0vh;
+    margin: 5vh 10vh 5vh 10vh;
 }
 
 #m-c-m-h-2-a-s-1{
@@ -396,11 +398,12 @@ button.flex-navbar-link-mobile-button{
     }
     .mdl-ctt-main-home-2-align-sub{
         width: 100%;
-        height: auto;
+        height: 250px;
         margin: 2vh 0vh 2vh 0vh;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        overflow: scroll;
     }
     .mdl-ctt-main-home-2-align h2{
         width: 100%;
@@ -409,11 +412,11 @@ button.flex-navbar-link-mobile-button{
         margin: 2vh 0vh 2vh 0vh;
     }
     .m-c-m-h-2-a-s{
-        width: 45%;
+        width: 350px;
         height: 35vh;
         border-radius: 10px;
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-        margin: 5vh 0vh 5vh 0vh;
+        margin: 5vh 5vh 5vh 5vh;
     }
     .textwidget-adress{
         color: rgb(255, 255, 255);
