@@ -249,10 +249,14 @@ button.flex-navbar-link-mobile-button{
     color: rgba(150, 150, 150);
     font-size: 9pt;
 }
+.mdl-ctt-footer-info-bx1-textwidget ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 .textwidget-adress{
     color: rgb(255, 255, 255);
 }
-.textwidget-adress p{margin: 0;}
 .textwidget-adress ul{margin:0;padding:0;list-style: none;}
 .mdl-ctt-footer-info-bx2 a{
     color: rgb(255, 255, 255);
