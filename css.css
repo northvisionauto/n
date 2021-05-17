@@ -119,11 +119,11 @@ button.flex-navbar-link-mobile-button{
 .flex-navbar-link-mobile{
     display: none;
     height: 0px;
-    -webkit-transition: height .1s; 
-    -moz-transition: height .1s; 
-    -ms-transition: height .1s; 
-    -o-transition: height .1s; 
-    transition: height .1s;
+    -webkit-transition: height .2s; 
+    -moz-transition: height .2s; 
+    -ms-transition: height .2s; 
+    -o-transition: height .2s; 
+    transition: height .2s;
 }
 
 
@@ -166,6 +166,7 @@ button.flex-navbar-link-mobile-button{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .mdl-ctt-main-home-2-align{
     width: 95%;
@@ -182,20 +183,32 @@ button.flex-navbar-link-mobile-button{
     flex-direction: column;
     flex-wrap: wrap;
     overflow: scroll;
+    margin: 0 auto;
+    border-radius: 10px;
 }
-.mdl-ctt-main-home-2-align h2{
+.mdl-ctt-main-home-2-align-sub::-webkit-scrollbar{
+    height: 5px;
+    width: 0; 
+    background: rgb(200, 200, 200);
+    border-radius: 5px;
+}
+.mdl-ctt-main-home-2-align-sub::-webkit-scrollbar-thumb {
+    background: rgb(150, 150, 150);
+    border-radius: 5px;
+}
+.mdl-ctt-main-home-2 h2{
     text-align: center;
-    margin: 2vh 0vh 2vh 0vh;
-    font-weight: 400;
-    font-size: 25pt;
+    margin: 5vh 0px 0px 0px;
+    font-weight: 600;
+    font-size: 18pt;
 }
 .m-c-m-h-2-a-s{
-    width: 90vh;
-    height: 25vh;
+    width: 100vw;
+    height: 90vh;
     border-radius: 10px;
     transition: height .2s;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    margin: 0vh 10vh 0vh 10vh;
+    margin: 0 5vh 0 5vh;
 }
 
 #m-c-m-h-2-a-s-1{
@@ -401,9 +414,10 @@ button.flex-navbar-link-mobile-button{
         margin: 5vh auto;
     }
     .mdl-ctt-main-home-2-align-sub{
-        width: 95%;
+        width: 99%;
         height: 250px;
-        margin: 2vh 0vh 2vh 0vh;
+        margin: 0 auto;
+        margin-left: 2px;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -416,11 +430,11 @@ button.flex-navbar-link-mobile-button{
         margin: 2vh 0vh 2vh 0vh;
     }
     .m-c-m-h-2-a-s{
-        width: 300px;
+        width: 320px;
         height: 45vh;
         border-radius: 10px;
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-        margin: 5vh 5vh 5vh 5vh;
+        margin: 2.5vh;
     }
     .textwidget-adress{
         color: rgb(255, 255, 255);
