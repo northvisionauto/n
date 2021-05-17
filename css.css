@@ -134,6 +134,7 @@ button.flex-navbar-link-mobile-button{
 .mdl-ctt-main-home-1{
     width: 100%;
     height: 500px;
+    padding-top: 40px;
     background-image: url(img/connected-house.jpg);
     background-position: center;
     background-size: cover;
@@ -141,8 +142,8 @@ button.flex-navbar-link-mobile-button{
 .mdl-ctt-main-home-1-text{
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter:blur(20px);
+    backdrop-filter: brightness(0.3);
+    -webkit-backdrop-filter:blur(0.3);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,7 +161,13 @@ button.flex-navbar-link-mobile-button{
     margin: 20px 300px 20px 300px;
     text-align: center;
 }
+
 .mdl-ctt-main-home-2{
+    width: 0;
+    height: 0;
+}
+
+.mdl-ctt-main-home-3{
     width: 100%;
     height: auto;
     display: flex;
@@ -168,14 +175,14 @@ button.flex-navbar-link-mobile-button{
     align-items: center;
     flex-direction: column;
 }
-.mdl-ctt-main-home-2-align{
+.mdl-ctt-main-home-3-align{
     width: 95%;
     height: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin: 5vh auto;
 }
-.mdl-ctt-main-home-2-align-sub{
+.mdl-ctt-main-home-3-align-sub{
     width: 95%;
     height: 250px;
     display: flex;
@@ -186,51 +193,240 @@ button.flex-navbar-link-mobile-button{
     margin: 0 auto;
     border-radius: 10px;
 }
-.mdl-ctt-main-home-2-align-sub::-webkit-scrollbar{
+.mdl-ctt-main-home-3-align-sub::-webkit-scrollbar{
     height: 5px;
     width: 0; 
     background: rgb(200, 200, 200);
     border-radius: 5px;
 }
-.mdl-ctt-main-home-2-align-sub::-webkit-scrollbar-thumb {
+.mdl-ctt-main-home-3-align-sub::-webkit-scrollbar-thumb {
     background: rgb(150, 150, 150);
     border-radius: 5px;
 }
-.mdl-ctt-main-home-2 h2{
+.mdl-ctt-main-home-3 h2{
     text-align: center;
     margin: 5vh 0px 0px 0px;
     font-weight: 600;
     font-size: 18pt;
 }
-.m-c-m-h-2-a-s{
-    width: 100vw;
-    height: 90vh;
+.mdl-ctt-main-home-3 a{
+    padding: 10px;
+    border-radius: 7px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.mdl-ctt-main-home-3 a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.m-c-m-h-3-a-s{
+    width: 70vw;
+    height: 35vh;
     border-radius: 10px;
     transition: height .2s;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
     margin: 0 5vh 0 5vh;
 }
-
-#m-c-m-h-2-a-s-1{
+#m-c-m-h-3-a-s-1{
     background-image: url(img/pexels-max-home.jpg);
     background-position: center;
     background-size: cover;
 }
-#m-c-m-h-2-a-s-2{
+#m-c-m-h-3-a-s-2{
     background-image: url(img/slide-1-v2-c.jpg);
     background-position: center;
     background-size: cover;
 }
-#m-c-m-h-2-a-s-3{
+#m-c-m-h-3-a-s-3{
     background-image: url(img/1_projeto_residencial-1.jpg);
     background-position: center;
     background-size: cover;
 }
-#m-c-m-h-2-a-s-4{
+#m-c-m-h-3-a-s-4{
     background-image: url(img/2_projeto_residencial-1-1.jpg);
     background-position: center;
     background-size: cover;
 }
+
+.mdl-ctt-main-contact-1{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.mcmc-map-division{
+    width: 50%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mcmc-form-division{
+    width: 50%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mcmc-map-division-iframe{
+    width: 90%;
+    height: 90%;
+    margin: 0;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.contato-sub-info h2{
+    text-align: center;
+    color: rgb(80, 80, 80);
+    font-family: 'Montserrat', sans-serif;
+}
+.contato-sub-info h1 img{
+    padding: 0px 10px 0px 5px;
+}
+.contato-info{
+    border-left: 0.5px solid rgb(190, 190, 190);
+}
+.form-msg textarea:focus{
+    outline: none;
+}
+.form-msg input:focus{
+    outline: none;
+}
+.form-msg{
+    margin:0;
+}
+.form-msg b{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 11pt;
+    font-weight: 500;
+    padding-bottom: 0px;
+    margin-right: 100px;
+}
+.cx-msg {
+    border-radius: 5px;
+    border: 0px solid rgb(190, 190, 190);
+    padding: 10px;
+    margin-top: 7px;
+}
+.cx-msg{
+    box-shadow: 0px 0px 15px rgba(0, 0, 100, 0.1);
+}
+.btn-form{border-radius: 30px; background-color: rgb(0, 0, 0); font-family: 'Montserrat', sans-serif;
+    color: white; border: 3px solid rgb(0, 0, 0); padding: 7px; cursor: pointer; }
+.btn-form2{border-radius: 30px; background-color: rgb(0, 0, 0); font-family: 'Montserrat', sans-serif;
+    color: white; border: 3px solid rgb(0, 0, 0); padding: 7px; cursor: pointer; }
+.btn-form:hover{ 
+    background-color: rgb(0, 200, 0);
+    border: 3px solid rgb(0, 200, 0);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.1);
+    color: white;
+    font-weight: bold;
+}
+.btn-form2:hover{
+    background-color: rgb(255, 0, 0);
+    border: 3px solid rgb(255, 0, 0);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 100, 0.1);
+    color: white;
+    font-weight: bold;
+}
+
+.mdl-ctt-main-company-1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mcmc-model-text h2{
+    height: auto;
+    margin: 30px 0px 30px 0px;
+}
+.mcmc-model-text p{
+    height: auto;
+    margin: 20px 0px 20px 0px;
+}
+.mcmc-model-text{
+    width: 90%;
+    height: 50%;
+    margin: 0;
+}
+.mcmc-model-image{
+    width: 90%;
+    height: 30%;
+    background-image: url(img/logo-northvision-draw-banner.png);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.mdl-ctt-main-auto-1{
+    width: 100%;
+    height: 200px;
+    padding-top: 40px;
+    background-image: url(img/pexels-max-home-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mdl-ctt-main-auto-1-text{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(0.1);
+    -webkit-backdrop-filter: brightness(0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mdl-ctt-main-auto-1 h2{
+    color: rgb(255, 255, 255);
+    margin: 20px 300px 20px 300px;
+    font-size: 35pt;
+    text-align: center;
+    font-weight: 500;
+}
+.mdl-ctt-main-auto-1 p{
+    color: rgb(255, 255, 255);
+    margin: 20px 300px 20px 300px;
+    text-align: center;
+}
+.mdl-ctt-main-auto-2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mcma-model-text h2{
+    height: auto;
+    margin: 30px 0px 30px 0px;
+}
+.mcma-model-text p{
+    height: auto;
+    margin: 20px 0px 20px 0px;
+}
+.mcma-model-text{
+    width: 90%;
+    height: auto;
+    margin: 0;
+}
+
 #mdl-ctt-footer{
     width: 100%;
     height: auto;
@@ -414,10 +610,10 @@ button.flex-navbar-link-mobile-button{
         margin: 5vh auto;
     }
     .mdl-ctt-main-home-2-align-sub{
-        width: 99%;
+        width: 95%;
         height: 250px;
         margin: 0 auto;
-        margin-left: 2px;
+        margin-right: 2.5%;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -430,12 +626,107 @@ button.flex-navbar-link-mobile-button{
         margin: 2vh 0vh 2vh 0vh;
     }
     .m-c-m-h-2-a-s{
-        width: 320px;
-        height: 45vh;
+        width: 80vw;
+        height: 70vh;
         border-radius: 10px;
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        box-shadow: none;
         margin: 2.5vh;
     }
+    .mdl-ctt-main-contact-1{
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mcmc-map-division{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mcmc-form-division{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mcmc-map-division-iframe{
+        width: 90%;
+        height: 90%;
+        margin: 0;
+        box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    .form-msg input{
+        size: 45px;
+    }
+    .mdl-ctt-main-company-1{
+        width: 100%;
+        height: 800px;
+    }
+    .mcmc-model-image{
+        height: 10%;
+    }
+    .mcmc-model-text{
+        height: 75%;
+    }
+
+    .mdl-ctt-main-auto-1{
+        width: 100%;
+        height: 200px;
+        padding-top: 40px;
+        background-image: url(img/pexels-max-home-2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .mdl-ctt-main-auto-1-text{
+        width: 100%;
+        height: 100%;
+        backdrop-filter: brightness(0.1);
+        -webkit-backdrop-filter: brightness(0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mdl-ctt-main-auto-1 h2{
+        color: rgb(255, 255, 255);
+        margin: 20px 300px 20px 300px;
+        font-size: 35pt;
+        text-align: center;
+        font-weight: 500;
+    }
+    .mdl-ctt-main-auto-1 p{
+        color: rgb(255, 255, 255);
+        margin: 20px 300px 20px 300px;
+        text-align: center;
+    }
+    .mdl-ctt-main-auto-2{
+        width: 100%;
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mcma-model-text h2{
+        height: auto;
+        margin: 30px 0px 30px 0px;
+    }
+    .mcma-model-text p{
+        height: auto;
+        margin: 20px 0px 20px 0px;
+    }
+    .mcma-model-text{
+        width: 90%;
+        height: auto;
+        margin: 0;
+    }
+
     .textwidget-adress{
         color: rgb(255, 255, 255);
     }
