@@ -485,7 +485,7 @@ button.flex-navbar-link-mobile-button{
     margin: 0;
 }
 .m-c-m-n-2-column-1,.m-c-m-n-2-column-2,.m-c-m-n-2-column-3{
-    width: 29vw;
+    width: 27vw;
     height: auto;
 }
 #m-c-m-n-2-c-g{
@@ -495,10 +495,6 @@ button.flex-navbar-link-mobile-button{
     padding: 25px;
     border-radius: 5px;
     margin: 20px 0px 20px 0px;
-}
-#m-c-m-n-2-c-g h2:hover{
-    color: rgb(50, 50, 200);
-    cursor: pointer;
 }
 #mdl-ctt-footer{
     width: 100%;
@@ -894,10 +890,6 @@ button.flex-navbar-link-mobile-button{
         padding: 25px;
         border-radius: 5px;
         margin: 20px 0px 20px 0px;
-    }
-    #m-c-m-n-2-c-g h2:hover{
-        color: rgb(50, 50, 200);
-        cursor: pointer;
     }
     .textwidget-adress{
         color: rgb(255, 255, 255);
