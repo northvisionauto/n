@@ -13,10 +13,17 @@ html a{
 /*SCROLLBAR*/
 ::-webkit-scrollbar {
     width: 10px; 
-    background: rgb(200, 200, 200);
+    background: rgb(240, 240, 240);
+}
+::-webkit-scrollbar-button{
+    
+}
+::-webkit-scrollbar-track{
+    margin: 5px;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0); 
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
     background-image: linear-gradient(180deg, rgb(150, 0, 0), rgb(0, 0, 150)); 
@@ -184,7 +191,7 @@ button.flex-navbar-link-mobile-button{
 }
 .mdl-ctt-main-home-3-align-sub{
     width: 95%;
-    height: 250px;
+    height: 40vh;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -427,6 +434,72 @@ button.flex-navbar-link-mobile-button{
     margin: 0;
 }
 
+.mdl-ctt-main-news-1{
+    width: 100%;
+    height: 200px;
+    padding-top: 40px;
+    background-image: linear-gradient(160deg, rgb(150, 0, 0), rgb(0, 0, 100));
+}
+.mdl-ctt-main-news-1-text{
+    width: 100%;
+    height: 100%;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mdl-ctt-main-news-1 h2{
+    color: rgb(255, 255, 255);
+    margin: 20px 300px 20px 300px;
+    font-size: 35pt;
+    text-align: center;
+    font-weight: 500;
+}
+.mdl-ctt-main-news-1 p{
+    color: rgb(255, 255, 255);
+    margin: 20px 300px 20px 300px;
+    text-align: center;
+}
+.mdl-ctt-main-news-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+}
+.mcmn-model-text h2{
+    height: auto;
+    margin: 30px 0px 30px 0px;
+}
+.mcmn-model-text p{
+    height: auto;
+    margin: 20px 0px 20px 0px;
+}
+.mcmn-model-text{
+    width: 90%;
+    height: auto;
+    margin: 0;
+}
+.m-c-m-n-2-column-1,.m-c-m-n-2-column-2,.m-c-m-n-2-column-3{
+    width: 29vw;
+    height: auto;
+}
+#m-c-m-n-2-c-g{
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    margin: 20px 0px 20px 0px;
+}
+#m-c-m-n-2-c-g h2:hover{
+    color: rgb(50, 50, 200);
+    cursor: pointer;
+}
 #mdl-ctt-footer{
     width: 100%;
     height: auto;
@@ -441,7 +514,7 @@ button.flex-navbar-link-mobile-button{
     justify-content: center;
 }
 .mdl-ctt-footer-info-bx1,.mdl-ctt-footer-info-bx2{
-    width: 40%;
+    width: 30%;
     height: 80%;
     display: flex;
     justify-content: center;
@@ -463,6 +536,48 @@ button.flex-navbar-link-mobile-button{
     padding: 0;
     list-style: none;
 }
+.mdl-ctt-footer-info-bx3{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+}
+.m-c-f-i-b-3-brands-space-1,.m-c-f-i-b-3-brands-space-4{
+    width: 58%;
+    height: 48%;
+    background-color: rgb(20, 20, 20);
+    border-radius: 7px;
+}
+.m-c-f-i-b-3-brands-space-2,.m-c-f-i-b-3-brands-space-3{
+    width: 38%;
+    height: 48%;
+    background-color: rgb(20, 20, 20);
+    border-radius: 7px;
+}
+.m-c-f-i-b-3-brands-space-1{
+    background-image: url(img/brand1.png);
+    background-size: cover;
+    background-position: center;
+}
+.m-c-f-i-b-3-brands-space-2{
+    background-image: url(img/brand2.png);
+    background-size: cover;
+    background-position: center;
+}
+.m-c-f-i-b-3-brands-space-3{
+    background-image: url(img/brand3.png);
+    background-size: cover;
+    background-position: center;
+}
+.m-c-f-i-b-3-brands-space-4{
+    background-image: url(img/brand4.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .textwidget-adress{
     color: rgb(255, 255, 255);
 }
@@ -557,7 +672,7 @@ button.flex-navbar-link-mobile-button{
     
     .mdl-ctt-footer-info{
         width: 100%;
-        height: 450px;
+        height: 550px;
         background-color: rgb(0, 0, 0);
         display: flex;
         flex-wrap: nowrap;
@@ -726,7 +841,64 @@ button.flex-navbar-link-mobile-button{
         height: auto;
         margin: 0;
     }
-
+    .mdl-ctt-main-news-1{
+        width: 100%;
+        height: 200px;
+        padding-top: 40px;
+        background-image: linear-gradient(160deg, rgb(150, 0, 0), rgb(0, 0, 100));
+    }
+    .mdl-ctt-main-news-1-text{
+        width: 100%;
+        height: 100%;
+        -webkit-backdrop-filter: blur(50px);
+        backdrop-filter: blur(50px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mdl-ctt-main-news-1 h2{
+        color: rgb(255, 255, 255);
+        margin: 10px 20px 10px 20px;
+        font-size: 30pt;
+        text-align: center;
+        font-weight: 500;
+    }
+    .mdl-ctt-main-news-1 p{
+        color: rgb(255, 255, 255);
+        margin: 10px 30px 10px 30px;
+        text-align: center;
+    }
+    .mdl-ctt-main-news-2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: space-around;
+    }
+    .mcmn-model-text{
+        width: 90%;
+        height: auto;
+        margin: 0;
+    }
+    .m-c-m-n-2-column-1,.m-c-m-n-2-column-2,.m-c-m-n-2-column-3{
+        width: 90vw;
+        height: auto;
+    }
+    #m-c-m-n-2-c-g{
+        width: auto;
+        height: auto;
+        background-color: white;
+        padding: 25px;
+        border-radius: 5px;
+        margin: 20px 0px 20px 0px;
+    }
+    #m-c-m-n-2-c-g h2:hover{
+        color: rgb(50, 50, 200);
+        cursor: pointer;
+    }
     .textwidget-adress{
         color: rgb(255, 255, 255);
     }
@@ -741,6 +913,15 @@ button.flex-navbar-link-mobile-button{
         border-bottom: 1px solid;
         border-image-source: linear-gradient(90deg, rgb(0, 0, 100), rgb(200, 0, 0));
         border-image-slice: 1;
+    }
+    .mdl-ctt-footer-info-bx3{
+        width: 90vw;
+        height: 55vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-around;
     }
     .mdl-ctt-footer-copy{
         width: 100%;
