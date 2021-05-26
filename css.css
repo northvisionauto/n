@@ -471,21 +471,13 @@ button.flex-navbar-link-mobile-button{
     flex-direction: row;
     align-content: space-around;
 }
-.mcmn-model-text h2{
-    height: auto;
-    margin: 30px 0px 30px 0px;
-}
-.mcmn-model-text p{
-    height: auto;
-    margin: 20px 0px 20px 0px;
-}
 .mcmn-model-text{
     width: 90%;
     height: auto;
     margin: 0;
 }
 .m-c-m-n-2-column-1,.m-c-m-n-2-column-2,.m-c-m-n-2-column-3{
-    width: 27vw;
+    width: 28vw;
     height: auto;
 }
 #m-c-m-n-2-c-g{
@@ -495,6 +487,39 @@ button.flex-navbar-link-mobile-button{
     padding: 25px;
     border-radius: 5px;
     margin: 20px 0px 20px 0px;
+}
+.m-c-m-n-2-column-1 a,.m-c-m-n-2-column-2 a,.m-c-m-n-2-column-3 a{color: black;}
+
+.mdl-ctt-main-dynamic-page-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mcmdp-model-text h2{
+    height: auto;
+    margin: 30px 0px 30px 0px;
+}
+.mcmdp-model-text p{
+    height: auto;
+    margin: 20px 0px 20px 0px;
+}
+.mcmdp-model-text{
+    width: 90%;
+    height: 50%;
+    margin: 30px 0px 30px 0px;
+}
+.mcmdp-model-image{
+    width: 90%;
+    height: 25vh;
+    background-image: url(img/home-office.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    border-radius: 10px;
+    margin-top:70px;
 }
 #mdl-ctt-footer{
     width: 100%;
