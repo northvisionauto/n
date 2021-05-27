@@ -16,7 +16,6 @@ html a{
     background: rgb(240, 240, 240);
 }
 ::-webkit-scrollbar-button{
-    
 }
 ::-webkit-scrollbar-track{
     margin: 5px;
@@ -928,8 +927,9 @@ button.flex-navbar-link-mobile-button{
         margin: 4px;
         text-align: center;
         border-bottom: 1px solid;
-        border-image-source: linear-gradient(90deg, rgb(0, 0, 100), rgb(200, 0, 0));
-        border-image-slice: 1;
+        border: none;
+        background-image: linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
+        border-radius: 7px;
     }
     .mdl-ctt-footer-info-bx3{
         width: 90vw;
