@@ -484,7 +484,7 @@ button.flex-navbar-link-mobile-button{
     height: auto;
     background-color: white;
     padding: 25px;
-    border-radius: 5px;
+    border-radius: 7px;
     margin: 20px 0px 20px 0px;
 }
 .m-c-m-n-2-column a{color: black;}
@@ -493,7 +493,7 @@ button.flex-navbar-link-mobile-button{
     width: 100%;
     background-position: center;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 #m-c-m-n-2-c-1-c-1-i-i{
     height: 20vh;
