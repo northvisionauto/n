@@ -475,11 +475,11 @@ button.flex-navbar-link-mobile-button{
     height: auto;
     margin: 0;
 }
-.m-c-m-n-2-column-1,.m-c-m-n-2-column-2,.m-c-m-n-2-column-3{
-    width: 28vw;
+.m-c-m-n-2-column{
+    width: 30vw;
     height: auto;
 }
-#m-c-m-n-2-c-g{
+.m-c-m-n-2-c-g{
     width: auto;
     height: auto;
     background-color: white;
@@ -487,8 +487,22 @@ button.flex-navbar-link-mobile-button{
     border-radius: 5px;
     margin: 20px 0px 20px 0px;
 }
-.m-c-m-n-2-column-1 a,.m-c-m-n-2-column-2 a,.m-c-m-n-2-column-3 a{color: black;}
-
+.m-c-m-n-2-column a{color: black;}
+.m-c-m-n-2-c-g-image-input{
+    margin: 0;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+#m-c-m-n-2-c-1-c-1-i-i{
+    height: 20vh;
+    background-image: url(img/home-office.jpg);
+}
+#m-c-m-n-2-c-2-c-1-i-i{
+    height: 20vh;
+    background-image: url(img/ballie-samsung.jpg);
+}
 .mdl-ctt-main-dynamic-page-1{
     width: 100%;
     height: auto;
@@ -520,6 +534,7 @@ button.flex-navbar-link-mobile-button{
     border-radius: 10px;
     margin-top:70px;
 }
+
 #mdl-ctt-footer{
     width: 100%;
     height: auto;
@@ -879,11 +894,11 @@ button.flex-navbar-link-mobile-button{
         height: auto;
         margin: 0;
     }
-    .m-c-m-n-2-column-1,.m-c-m-n-2-column-2,.m-c-m-n-2-column-3{
+    .m-c-m-n-2-column{
         width: 90vw;
         height: auto;
     }
-    #m-c-m-n-2-c-g{
+    .m-c-m-n-2-c-g{
         width: auto;
         height: auto;
         background-color: white;
