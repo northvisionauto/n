@@ -601,6 +601,9 @@ button.flex-navbar-link-mobile-button{
 .textwidget-adress{
     color: rgb(255, 255, 255);
 }
+.mdl-ctt-footer-info-bx1-textwidget span a{
+    color: rgba(220, 220, 220);
+}
 .textwidget-adress ul{margin:0;padding:0;list-style: none;}
 .mdl-ctt-footer-info-bx2 a{
     color: rgb(255, 255, 255);
