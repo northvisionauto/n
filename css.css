@@ -751,13 +751,13 @@ button.flex-navbar-link-mobile-button{
         transition: .2s;
     }
 
-    .flex-navbar-link-mobile-button:hover #fnlmt-1{
+    .flex-navbar-link-mobile-tag #fnlmt-1{
         transform: matrix(1, 0, 0, 1, 6, 6)rotate(45deg);
     }
-    .flex-navbar-link-mobile-button:hover #fnlmt-3{
+    .flex-navbar-link-mobile-tag #fnlmt-3{
         transform: matrix(1, 0, 0, 1, 6, -1)rotate(-45deg);
     }
-    .flex-navbar-link-mobile-button:hover #fnlmt-2{
+    .flex-navbar-link-mobile-tag #fnlmt-2{
         display: none;
     }
 
