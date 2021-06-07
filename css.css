@@ -12,20 +12,14 @@ html a{
 }
 /*SCROLLBAR*/
 ::-webkit-scrollbar {
-    width: 10px; 
+    width: 8px; 
     background: rgb(240, 240, 240);
 }
 ::-webkit-scrollbar-button{
     border-top: rgb(20, 20, 20);
-
-}
-::-webkit-scrollbar-track{
-    margin: 5px;
-    outline: rgb(200, 200, 200);
 }
 ::-webkit-scrollbar-thumb {
     background: rgb(0, 0, 0);
-    border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
     background-image: linear-gradient(180deg, rgb(150, 0, 0), rgb(0, 0, 150)); 
@@ -144,36 +138,50 @@ button.flex-navbar-link-mobile-button{
     width: 100%;
     height: 500px;
     padding-top: 40px;
-    background-image: url(img/connected-house.jpg);
     background-position: center;
     background-size: cover;
 }
 .mdl-ctt-main-home-1-text{
-    width: 100%;
-    height: 100%;
-    backdrop-filter: brightness(0.3);
-    -webkit-backdrop-filter:blur(0.3);
+    width: 60%;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+}
+.mdl-ctt-main-home-1 video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 .mdl-ctt-main-home-1 h2{
     color: rgb(255, 255, 255);
-    margin: 20px 300px 20px 300px;
+    width: 700px;
     font-size: 35pt;
-    text-align: center;
+    text-align: left;
     font-weight: 500;
+    text-shadow: 0px 0px 20px rgb(0, 0, 0, 0.5);
 }
 .mdl-ctt-main-home-1 p{
     color: rgb(255, 255, 255);
-    margin: 20px 300px 20px 300px;
-    text-align: center;
+    width: 700px;
+    text-align: left;
+    text-shadow: 0px 0px 20px rgb(0, 0, 0, 0.5);
 }
 
 .mdl-ctt-main-home-2{
-    width: 0;
-    height: 0;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(160deg, rgb(100, 100, 255), rgb(0, 0, 0));
+    display: flex;
+}
+.mdl-ctt-main-home-2 h2{
+    width: 600px;
+    color: rgb(255, 255, 255);
+    font-size: 30pt;
+    font-weight: 500;
+
 }
 
 .mdl-ctt-main-home-3{
@@ -388,15 +396,13 @@ button.flex-navbar-link-mobile-button{
     width: 100%;
     height: 200px;
     padding-top: 40px;
-    background-image: url(img/pexels-max-home-2.jpg);
+    background-image: linear-gradient(160deg, rgb(100, 100, 255), rgb(0, 0, 0));
     background-position: center;
     background-size: cover;
 }
 .mdl-ctt-main-auto-1-text{
     width: 100%;
     height: 100%;
-    backdrop-filter: brightness(0.1);
-    -webkit-backdrop-filter: brightness(0.1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -404,7 +410,7 @@ button.flex-navbar-link-mobile-button{
 }
 .mdl-ctt-main-auto-1 h2{
     color: rgb(255, 255, 255);
-    margin: 20px 300px 20px 300px;
+    width: 300px;
     font-size: 35pt;
     text-align: center;
     font-weight: 500;
@@ -440,7 +446,7 @@ button.flex-navbar-link-mobile-button{
     width: 100%;
     height: 200px;
     padding-top: 40px;
-    background-image: linear-gradient(160deg, rgb(150, 0, 0), rgb(0, 0, 100));
+    background-image: linear-gradient(160deg, rgb(150, 0, 0),rgb(0, 0, 0), rgb(0, 0, 100));
 }
 .mdl-ctt-main-news-1-text{
     width: 100%;
@@ -716,6 +722,8 @@ button.flex-navbar-link-mobile-button{
         width: 100%;
         height: 0;
         background-color: rgb(250, 250, 250, 0.9); 
+        transition: .5s;
+        overflow: hidden;
     }
     .flex-navbar-link-mobile ul{list-style: none;}
     .flex-navbar-link-mobile ul li{line-height: 25px;}
@@ -740,20 +748,33 @@ button.flex-navbar-link-mobile-button{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        transition: .2s;
     }
-    
-    
+
+    .flex-navbar-link-mobile-button:hover #fnlmt-1{
+        transform: matrix(1, 0, 0, 1, 6, 6)rotate(45deg);
+    }
+    .flex-navbar-link-mobile-button:hover #fnlmt-3{
+        transform: matrix(1, 0, 0, 1, 6, -1)rotate(-45deg);
+    }
+    .flex-navbar-link-mobile-button:hover #fnlmt-2{
+        display: none;
+    }
+
+    .mdl-ctt-main-home-1-text{
+        width: 90%;
+    }
     .mdl-ctt-main-home-1 h2{
         color: rgb(255, 255, 255);
-        margin: 10px 80px 10px 80px;
+        width: 70vw;
         font-size: 35pt;
-        text-align: center;
+        text-align: left;
         font-weight: 500;
     }
     .mdl-ctt-main-home-1 p{
         color: rgb(255, 255, 255);
-        margin: 10px 80px 10px 80px;
-        text-align: center;
+        width: 70vw;
+        text-align: left;
     }
     .mdl-ctt-main-home-3{
         width: 100%;
@@ -787,7 +808,7 @@ button.flex-navbar-link-mobile-button{
     }
     .m-c-m-h-3-a-s{
         width: 80vw;
-        height: 25vh;
+        height: 90%;
         border-radius: 10px;
         box-shadow: none;
         margin: 2.5vh;
@@ -1026,3 +1047,27 @@ button.flex-navbar-link-mobile-button{
     }
 
 }
+
+/* Animação */
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+  }
+  
+  [data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+  }
+  
+  [data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+  }
+  
+  [data-anime="top"] {
+    transform: translate3d(0, 0px, 0);
+  }
+  
+  [data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
