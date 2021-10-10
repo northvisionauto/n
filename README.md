@@ -36,12 +36,10 @@ O projeto teve 3 etapas para chegar no seu estado atual.
 Na primeira etapa, fizemos uma pesquisa sobre automação residencial, e então a definimos como aplicar todas as tecnologias existentes dentro de casa para facilitar tarefas que antes dependiam somente do morador, fazendo com que todos os sistemas eletrônicos funcionem como um só, sob o nosso total controle e de acordo com nossos hábitos, necessidades e gostos. 
 Na segunda etapa, iniciamos elaboração do site, aplicando linguagens comumente utilizadas no desenvolvimento web, como HTML, CSS e Javascript, e o projetamos para ter um layout responsivo. Todo o projeto foi hospedado utilizando a plataforma Github Pages. 
 Na terceira etapa, finalizamos com o design e adicionamos conteúdo referente à automação residencial ao site.
-
-5. Prova de Conceito
  
-6. Considerações Finais
+5. Considerações Finais
 Concluímos que a automação residencial é algo novo e surpreendente, nesse período pesquisando sobre o assunto referido, pudemos perceber uma alta no surgimento de casas inteligentes nos últimos anos, a versatilidade das tecnologias utilizadas conforme a necessidade do cliente e as aplicações no qual podem ser feitas estas automações para oferecer uma comodidade e um bem-estar melhor. 
 
-7. Referências Bibliográficas
+6. Referências Bibliográficas
 SMART AUTOMAÇÃO RESIDENCIAL. Entendendo a automação residencial. São Paulo: Apagar, 2019. 25 slides, color. Disponível em: . Acesso em: 01 jun. 2019.
 SMART HOME BLOG. OpenHab vs Home Assistant vs Domoticz. Disponível em: . Acesso em: 03 out. 2019.
