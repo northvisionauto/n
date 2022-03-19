@@ -43,3 +43,7 @@ Concluímos que a automação residencial é algo novo e surpreendente, nesse pe
 6. Referências Bibliográficas
 SMART AUTOMAÇÃO RESIDENCIAL. Entendendo a automação residencial. São Paulo: Apagar, 2019. 25 slides, color. Disponível em: . Acesso em: 01 jun. 2019.
 SMART HOME BLOG. OpenHab vs Home Assistant vs Domoticz. Disponível em: . Acesso em: 03 out. 2019.
+
+Fisrt page impression:
+
+![screencapture-northvisionauto-github-io-n-index-html-2022-03-19-20_35_19](https://user-images.githubusercontent.com/69748135/159142006-0d6f5075-1fa1-43b0-842b-db2c986173a6.png)
