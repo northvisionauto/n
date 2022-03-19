@@ -783,6 +783,16 @@ button.flex-navbar-link-mobile-button{
         width: 70vw;
         text-align: left;
     }
+    .mdl-ctt-main-news-2 h2{
+        width: 500px;
+        color: rgb(255, 255, 255);
+        font-size: 20pt;
+        font-weight: 600;
+        letter-spacing: 15px;
+        text-transform: uppercase;
+        text-align: center
+    }
+
     .mdl-ctt-main-home-3{
         width: 100%;
         height: auto;
