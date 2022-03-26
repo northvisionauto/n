@@ -756,9 +756,6 @@ button.flex-navbar-link-mobile-button{
 
     .flex-navbar-link-mobile{
         width: 100%;
-        height: 0;
-        background-color: rgb(250, 250, 250, 0.9); 
-        transition: .5s;
         overflow: hidden;
     }
     .flex-navbar-link-mobile ul{list-style: none;}
@@ -890,6 +887,9 @@ button.flex-navbar-link-mobile-button{
     }
     .form-msg input{
         size: 45px;
+    }
+    .cx-msg {
+        width: 80vw;
     }
     .mdl-ctt-main-company-1{
         width: 100%;
